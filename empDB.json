@@ -1,0 +1,63 @@
+{
+    "employees": [
+        {
+            "id":1,
+            "name":"Pankaj",
+            "salary": "10000"
+        },
+        {
+            "id":2,
+            "name":"Lisa",
+            "salary": "8000"
+        },
+        {
+            "id":3,
+            "name":"Terisa",
+            "salary": "10000"
+        },
+        {
+            "id":4,
+            "name":"Harry",
+            "salary": "5000"
+        },
+          {
+            "name": "Nagraj",
+            "salary": "5000",
+            "id": 5
+          },
+          {
+            "name": "Panchal",
+            "salary": "50000",
+            "id": 6
+          },
+          {
+            "name": "Aruna",
+            "salary": "52000",
+            "id": 7
+          },
+          {
+            "name": "Ambu",
+            "salary": "50000",
+            "id": 8
+          },
+          {
+            "name": "Chintu",
+            "salary": "5000",
+            "id": 9
+          },
+          {
+            "name": "Chotu",
+            "salary": "5000",
+            "id": 10
+          },
+          {
+            "name": "Pari",
+            "salary": "5000",
+            "id": 11
+          }
+    ]
+}
+
+// RUN Steps : In Terminal:  npm install xmlhttprequest
+// npx json-server --watch empDB.json
+// curl -X GET -H "Content-Type: application/json" "http://localhost:3000/employees" -w "\n"
